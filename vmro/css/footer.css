@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapos.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins',sans-serif;
+    background:#d8d8d8;
+}
+.footer{
+    background-color:grey;
+    padding:70px 0;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+ul{
+    list-style:none;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.footer-col{
+    width:25%;
+    padding:0 15px;
+    
+}
+.footer-col h4{
+    font-size:18px;
+    color:whitesmoke;
+    text-transform:capitalize;
+    margin-bottom:35px;
+    font-weight:500;
+    position:relative;
+
+}
+.footer-col h4::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    box-sizing:border-box;
+    width:50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom:10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform:capitalize;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight:300;
+    color:#bbbbbb;
+    display: block;
+    transition:all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left:8px;
+}
+.footer-col .social-links{
+    padding:0;
+    margin:0;
+    display:flex;
+}
+.footer-col .social-links a .fa{
+    font-size:30px;
+    line-height: 60px;
+    transition: .6s;
+    color:#000;
+}
+.footer-col .social-links a{
+    position:relative;
+    border-radius: 70%;
+    width:15%;
+    background-color:white;
+    text-align: center;
+    list-style:none;
+    margin: 0 15px;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+.footer-col .social-links a:hover{
+    transform: translate(0,-10px);
+}
+.footer-col .social-links:nth-child(1) a:hover{
+    background-color: #1877f2;
+}
+.footer-col .social-links:nth-child(2) a:hover{
+    background-color: #1dA1F2;
+}
+.footer-col .social-links:nth-child(3) a:hover{
+    background-color: #E4405F;
+}
+.footer-col .social-links:nth-child(4) a:hover{
+    background-color: #0A66C2;
+}
+
+
